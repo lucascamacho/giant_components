@@ -12,7 +12,6 @@ probs <- vector()
 tam <- vector()
 num <- vector()
 
-
 for(i in 1:n_net){
   prob <- runif(1, 0, (log(n_sp)/n_sp)) #probabilidade de conexão
 
@@ -33,14 +32,11 @@ for(i in 1:n_net){
   
   tam[i] <- max(components(graph_from_adjacency_matrix(M))$csize) # obter tamanho do maior componente
   num[i] <- components(graph_from_adjacency_matrix(M))$no # obter numero de componentes
-  
 }
 
 #plotar alguns resultados
-plot(probs, tam)
+plot(num, tam)
 abline(v = 1/n_sp, col = "red")
 abline(v = log(n_sp)/n_sp, col = "green")
-
-
 
 
