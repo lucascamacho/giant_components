@@ -105,10 +105,46 @@ coevo_net <- function(x, net, netname, matrix_type="adjacency", mi, phi, alpha, 
   graph<-graph_from_adjacency_matrix(A, mode=c("undirected"))
   component_id<-components(graph)$membership
   
+  component_tm<-comp_tm(component_id, z_eq, alpha=alpha, sp_id=rownames(A))
+  network_tm<-global_tm(z_eq, alpha=alpha)
+  
   output<-data.frame(network_id=netn, component_id, sp_id=rownames(A), 
-                     z_init=z_mat[1,], z_eq, theta, degree, sp_indirect_effects, m, phi, alpha, t_eq, nsim=x)
+                     z_init=z_mat[1,], z_eq, theta, degree, sp_indirect_effects, 
+                     component_tm, network_tm, m, phi, alpha, t_eq, nsim=x)
   
   return(output)
+  
+}
+
+tmatch<-function(x,y, alpha){
+  tm<-exp(-alpha*(y-x)^2)
+}
+
+global_tm<-function(z, alpha){
+  tm<-outer(z,z, FUN=tmatch, alpha=alpha)
+  diag(tm)<-NA
+  return(rowMeans(tm, na.rm=TRUE))
+}
+
+comp_tm<-function(comp_id, z, alpha, sp_id){
+  
+  names(z)<-paste0("SP", 1:length(z))
+  tm_list<-list()
+  
+  for(i in 1:length(unique(comp_id))){
+    
+    z_i<-z[which(comp_id==unique(comp_id)[i])]
+    tm_i<-outer(z_i, z_i, FUN=tmatch, alpha=alpha)
+    diag(tm_i)<-NA
+    
+    mean_tm<-rowMeans(tm_i, na.rm=TRUE)
+    tm_list[[i]]<-mean_tm
+    
+  }
+  tm_values<-do.call(c, tm_list)
+  aux<-match(sp_id, names(tm_values))
+  
+  return(tm_values[aux])
   
 }
 

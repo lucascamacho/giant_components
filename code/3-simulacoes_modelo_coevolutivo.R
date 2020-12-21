@@ -33,6 +33,6 @@ sfLibrary(igraph) #Loading libraries inside clusters
 
 m_values<-seq(from=0.1, to=0.9, by=0.1) #Setting up m values to use in simulations, from 0.1 to 0.9
 
-results<-lapply(m_values, FUN=coevo_sim, net_list=networks_list[1:5], matrix_type="adjacency", phi=0.2, alpha=0.2, t_max=1000, eps=0.0001, nsim=5)
+results<-lapply(m_values, FUN=coevo_sim, net_list=networks_list, matrix_type="adjacency", phi=0.2, alpha=0.2, t_max=1000, eps=0.0001, nsim=500)
 
 results_df<-do.call(rbind, results) #Getting full data frame of results
