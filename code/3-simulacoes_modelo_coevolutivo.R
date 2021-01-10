@@ -23,6 +23,10 @@ networks_list <- lapply(networks_path, read.table, header=FALSE) #Reading networ
 networks_list <- lapply(networks_list, as.matrix) #Converting all networks to matrices
 names(networks_list)<-networks_files #Setting networks names
 
+verif<-lapply(networks_list, function(x){return(sum(rowSums(x)))}) #Verifying networks - excluding network 74 (no connection)
+
+networks_list_ok<-networks_list[c(1:73, 75:100)]
+
 #------------------------------#
 #-Setting parallel simulations-#
 #------------------------------#
@@ -33,6 +37,6 @@ sfLibrary(igraph) #Loading libraries inside clusters
 
 m_values<-seq(from=0.1, to=0.9, by=0.1) #Setting up m values to use in simulations, from 0.1 to 0.9
 
-results<-lapply(m_values, FUN=coevo_sim, net_list=networks_list, matrix_type="adjacency", phi=0.2, alpha=0.2, t_max=1000, eps=0.0001, nsim=500)
+results<-lapply(m_values, FUN=coevo_sim, net_list=networks_list_ok, matrix_type="adjacency", phi=0.2, alpha=0.2, t_max=1000, eps=0.0001, nsim=100)
 
 results_df<-do.call(rbind, results) #Getting full data frame of results
