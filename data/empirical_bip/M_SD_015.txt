@@ -1,0 +1,6 @@
+"Centurus_aurifrons"	"Icterus_gularis"	"Pteroglossus_torguatus"	"Trogon_citreolus"	"Centurus_pygmaeus"	"Megarynchus_pitangua"	"Psilorhinus_morio"	"Ramphastos_sulfuratus"	"Saltator_atriceps"	"Tityra_semifasciata"	"Amazona_albifrons"	"Aratinga_astec"	"Cissilopha_yucatanica"	"Cyanocorax_yncas"	"Dives_dives"	"Euphonia_hirundinacea"	"Icterus_chrysater"	"Myiozetetes_similis"	"Tyrannus_melancholicus"	"Euphonia_affinis"	"Icterus_auratus"	"Icterus_mesomelas"	"Icterus_prosthemelas"	"Ortalis_vetula"	"Pitangus_sulphuratus"	"Turdus_grayi"	"Cotinga_amabilis"
+"Ehretia_tinifolia"	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	0
+"Metopium_browneii"	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	0	0	0	0	1	0	0	0
+"Ficus_padifolia"	1	1	1	1	1	1	1	1	1	1	0	0	0	0	1	1	0	1	1	1	0	0	0	0	1	1	1
+"Talisia_olivaeformis"	1	1	1	1	1	0	1	0	1	0	1	1	1	1	1	0	1	0	0	0	1	1	1	0	0	0	0
+"Neea_psychotrioides"	1	1	1	1	0	1	0	1	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0

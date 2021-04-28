@@ -1,0 +1,17 @@
+"Meligethes_sp1_M_PL_046"	"Unidentified_sp1_M_PL_046"	"Unidentified_sp2_M_PL_046"	"Musca_sp1_M_PL_046"	"Unidentified_sp3_M_PL_046"	"Unidentified_sp4_M_PL_046"	"Unidentified_sp5_M_PL_046"	"Lucilia_sp1_M_PL_046"	"Unidentified_sp6_M_PL_046"	"Bombus_pascuorum"	"Bombus_terrestris"	"Pieris_sp1_M_PL_046"	"Unidentified_sp7_M_PL_046"	"Unidentified_sp8_M_PL_046"	"Meligethes_sp2_M_PL_046"	"Unidentified_sp10_M_PL_046"	"Unidentified_sp11_M_PL_046"	"Unidentified_sp12_M_PL_046"	"Unidentified_sp9_M_PL_046"	"Bombus_lapidarius"	"Unidentified_sp13_M_PL_046"	"Unidentified_sp14_M_PL_046"	"Unidentified_sp15_M_PL_046"	"Unidentified_sp16_M_PL_046"	"Unidentified_sp17_M_PL_046"	"Apis_mellifera"	"Asilus_sp1_M_PL_046"	"Andreana_sp1_M_PL_046"	"Cetonia_aurata"	"Colias_croceus"	"Unidentified_sp18_M_PL_046"	"Rhynconycha_sp1_M_PL_046"	"Unidentified_sp19_M_PL_046"	"Unidentified_sp20_M_PL_046"	"Unidentified_sp21_M_PL_046"	"Unidentified_sp22_M_PL_046"	"Vespula_sp1_M_PL_046"	"Ichneumonidae_1"	"Inachis_io"	"Pararge_aegeria"	"Unidentified_sp23_M_PL_046"	"Unidentified_sp24_M_PL_046"	"Unidentified_sp25_M_PL_046"	"Unidentified_sp26_M_PL_046"
+"Cirsium_arvense"	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	0	1	1	0	1	0	0	0	0	0	0	0	1	0	0	0	0
+"Angelica_archangelica"	1	1	1	1	1	1	1	1	1	0	1	0	1	1	1	1	1	1	1	0	0	1	1	1	1	0	1	0	0	0	1	1	1	1	0	0	0	0	0	0	0	0	1	0
+"Anthriscus_sylvestris"	1	1	1	1	1	1	1	1	1	0	0	1	1	1	1	1	1	1	1	0	0	1	1	1	1	0	0	0	0	0	1	0	0	0	0	1	1	0	0	0	0	0	0	1
+"Epilobium_hirsutum"	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	0	1	1	1	0	0	1	1	1	1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+"Umbellifer_sp1_M_PL_046"	1	1	1	1	1	1	1	1	0	0	1	0	1	1	0	1	1	1	1	0	0	0	1	1	1	0	1	0	0	0	1	1	0	0	0	0	1	1	0	0	0	0	0	0
+"Lathyrus_pratensis"	1	1	1	1	1	1	1	1	0	1	1	0	1	0	1	1	1	1	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0
+"Unidentified_sp27_M_PL_046"	1	1	1	1	1	1	1	1	0	0	0	0	1	0	1	1	1	1	1	0	0	1	1	0	1	1	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+"Chamaenerium_angustifolium"	1	1	1	1	1	1	1	1	1	1	0	1	1	0	0	1	0	0	0	0	1	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0
+"Cirsium_pratensis"	1	1	1	1	1	1	1	1	1	1	1	0	0	1	1	0	0	0	0	1	0	0	0	0	0	0	1	0	1	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0
+"Rubus_fruticosus"	1	1	1	0	1	1	1	1	1	1	1	1	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+"Trfolium_sp1_M_PL_046"	1	1	1	1	1	0	1	0	1	1	0	1	1	0	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+"Trifolium_arvense"	1	1	1	1	0	0	0	0	0	1	1	1	0	1	0	0	0	0	0	1	0	0	0	1	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"Torilis_japonica"	1	1	1	1	1	1	0	0	1	0	0	1	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0
+"Stachys_sylvatica"	1	1	1	1	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	1	1	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"Ranunculus_sp1_M_PL_046"	1	1	1	1	1	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"Silene_dioica"	1	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0

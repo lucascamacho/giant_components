@@ -1,0 +1,25 @@
+"Calorhamphus_fuliginosus"	"Irene_puella"	"Megalaima_chrysopogon"	"Calyptomena_viridis"	"Chloropsis_sonnerati"	"Megalaima_australis"	"Treron_curvirostra"	"Megalaima_mystacophanos"	"Anthracoceros_malayanus"	"Hypsipetes_charlottae"	"Megalaima_henricii"	"Pycnonotus_brunneus"	"Chloropsis_cyanopogon"	"Prionochilus_percussus"	"Pycnonotus_eutilotus"	"Buceros_rhinoceros"	"Criniger_phaeocephalus"	"Dicaeum_chrysorrherum"	"Pycnonotus_cyaniventris"	"Treron_capellei"	"Gracula_religiosa"	"Pycnonotus_erythropthalmos"	"Pycnonotus_simplex"	"Anorrhinus_galeritus"	"Criniger_bres"	"Prionochilus_maculatus"	"Rhinoplax_vigil"	"Oriolus_xanthonotus"	"Alcippe_brunneicauda"	"Loriculus_galgulus"	"Pycnonotus_atriceps"	"Criniger_finschii"	"Ptilinopus_jambu"	"Rhyticeros_corrugatus"	"Chloropsis_cochinchinensis"	"Hypsipetes_criniger"	"Treron_olax"	"Corvus_enca"	"Dicaeum_agile"	"Hypsipetes_malaccensis"	"Lophura_ignita"	"Chalcophaps_indica"	"Dicaeum_concolor"	"Ducula_badia"	"Melanochlora_sultanea"	"Platysmurus_leucopterus"	"Pycnonotus_goavier"	"Zoothera_interpres"	"Anthracoceros_albirostris"	"Coracina_striata"	"Dicaeum_ignipectus"	"Dicaeum_trigonostigma"	"Harpactes_diardi"	"Hypsipetes_flavala"	"Pycnonotus_finlaysoni"	"Pycnonotus_melanoleucos"	"Pycnonotus_plumosus"	"Pycnonotus_squamatus"	"Pycnonotus_zeylanicus"	"Treron_fulvicollis"	"Turdus_obscurus"
+"Ficus_pellucido-punctata"	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	0	1	1	1	1	1	1	1	1	0	0	1	1	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0
+"Ficus_caulocarpa"	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	0	1	1	1	1	1	1	1	0	1	1	0	1	1	1	1	1	0	0	1	1	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"Ficus_binnendykii"	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	0	1	1	1	0	0	1	1	0	1	1	0	0	1	0	1	1	0	0	1	1	1	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0
+"Ficus_pisocarpa"	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	0	0	0	1	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0
+"Ficus_crassiramea"	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	0	1	0	1	1	0	0	1	0	0	1	1	1	1	0	0	1	1	0	0	0	0	0	0	0	1	0	1	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+"Ficus_stupenda"	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	0	0	0	1	1	0	0	1	0	1	1	0	0	1	0	0	1	1	1	0	0	1	1	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1
+"Ficus_kerkhovenii"	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	1	1	1	1	0	1	0	1	1	0	0	0	1	0	0	0	1	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"Ficus_delosyce"	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	0	1	1	1	1	1	0	1	0	0	1	0	0	1	1	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"Ficus_obscura"	1	1	1	1	0	0	1	1	0	1	0	1	0	1	1	0	1	1	1	0	0	1	1	0	1	1	0	1	1	0	1	1	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0
+"Ficus_trichocarpa"	1	1	1	1	1	1	0	1	1	1	1	1	1	1	1	0	1	0	1	0	0	1	1	0	1	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	1	0	1	0	0
+"Ficus_benjamina"	1	1	1	1	1	1	1	0	0	1	0	1	0	1	1	0	1	1	1	0	0	1	1	0	1	1	0	1	1	0	1	1	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"Ficus_sundaica"	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	1	1	1	1	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"Ficus_cucurbitina"	1	1	1	1	1	1	1	1	1	0	1	0	1	0	0	1	0	1	0	1	1	0	0	1	0	0	1	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	1	1	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"Ficus_virens"	1	1	1	1	1	1	1	1	1	1	1	1	1	0	1	1	0	1	1	0	1	0	0	0	0	0	0	1	0	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0
+"Ficus_consociata"	1	1	1	1	1	1	0	0	1	1	1	1	1	1	1	0	0	0	0	0	0	1	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"Ficus_parietalis"	1	1	1	1	0	1	0	1	1	0	0	1	0	1	1	0	1	0	1	0	0	0	0	1	1	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"Ficus_dubia"	1	0	1	1	1	1	1	1	1	0	1	0	0	0	0	1	0	0	0	1	0	0	0	1	0	0	1	0	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"Ficus_bracteata"	1	1	1	1	1	1	1	1	1	1	1	0	0	0	0	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"Ficus_drupacea"	1	1	1	0	1	1	1	0	1	0	0	0	0	1	0	1	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"Ficus_heteropleura"	0	1	0	1	0	1	0	1	0	0	0	0	0	0	1	0	1	0	1	0	0	1	1	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"Ficus_stricta"	1	1	0	1	1	0	1	1	1	0	1	0	0	0	1	0	0	0	0	1	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"Ficus_subcordata"	0	0	1	0	1	0	1	0	1	0	0	0	0	0	0	1	0	1	0	1	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"Ficus_sumatrana"	1	1	0	0	1	1	1	0	0	1	1	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+"Ficus_sagittata"	0	0	1	0	0	0	0	0	0	1	0	1	1	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0

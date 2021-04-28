@@ -1,0 +1,17 @@
+"Mandrillus_sphinx"	"Cercocebus_albigena"	"Cercopithecus_nictitans"	"Cercopithecus_cephus"	"Gorilla_gorilla"	"Cercopithecus_pogonias"	"Pan_troglodytes"	"Colobus_satanas"
+"Ficus_sp1_M_SD_017"	1	1	1	1	1	1	1	0
+"Pseudospondias_longifolia"	1	1	1	1	1	1	1	0
+"Elaeis_guineensis"	1	1	1	1	0	1	1	0
+"Tetrapleura_tetraptera"	1	1	1	1	0	1	0	1
+"Berlinia_bracteosa"	0	1	1	1	0	1	0	1
+"Pycnanthus_angolensis"	0	1	1	1	0	1	1	0
+"Unidentified_sp1_M_SD_017"	1	0	1	1	1	0	1	0
+"Xylopia_sp1_M_SD_017"	1	1	1	1	0	1	0	0
+"Detarium_macrocarpum"	1	0	1	1	1	0	0	0
+"Duboscia_macrocarpa"	1	1	0	0	1	0	1	0
+"Pentadesma_butyracea"	0	0	1	1	1	0	0	1
+"Milicia_excelsa"	0	1	1	0	1	0	0	0
+"Ongokea_gore"	1	1	0	0	0	0	0	1
+"Pentaclethra_sp1_M_SD_017"	1	1	0	0	0	0	0	1
+"Unidentified_sp2_M_SD_017"	1	0	0	0	1	0	1	0
+"Marantochloa_sp1_M_SD_017"	1	0	0	0	1	0	0	0
