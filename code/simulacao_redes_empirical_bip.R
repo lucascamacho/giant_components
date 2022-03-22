@@ -86,22 +86,23 @@ p2<-ggplot(component_df)+
   geom_vline(xintercept=1, linetype="dashed")+
   theme_pubr()
 
-p1+p2+plot_layout(guides="collect") & theme(legend.position="bottom")
-
-p3<-ggscatter(component_df, x="sp_indirect_effects", y="network_tm", fill="m", color="white", shape=21, size=2.5)
-
-p3<-ggpar(p3, xlab="Contribution of indirect effects", ylab="Network trait matching")+
-  #scale_fill_manual(values=pal2)
+p3 <- p1+p2+plot_layout(guides="collect") & theme(legend.position="bottom")
 
 p3
+
+ggsave(p3, filename = "Empirical_degree_tm_indirect.pdf", dpi = 600,
+       width = 18, height = 12, units = "cm", bg = "transparent")
 
 ### 
 
 p2<-ggplot(component_df)+
   geom_point(aes(x=sp_indirect_effects, y=network_tm, fill=m),color="white", shape=21, size=3, alpha=0.9) +
   #scale_fill_manual(values=pal2)+
-  xlab("<k>")+ylab("Contribution of indirect effects")+
+  xlab("Indirect Effects")+ylab("Network Trait Matching")+
   #geom_vline(xintercept=1, linetype="dashed")+
   theme_pubr()
 
 p2
+
+ggsave(p2, filename = "Empirical_tm_indirect.pdf", dpi = 600,
+       width = 18, height = 12, units = "cm", bg = "transparent")
