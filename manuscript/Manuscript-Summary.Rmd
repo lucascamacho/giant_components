@@ -1,0 +1,35 @@
+---
+title: "Manuscript Outline"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## How does the emergence of giant components affect coevolution? 
+
+The structure of networks can range from disconnected - those composed of several isolated groups of interacting nodes - to fully connected - those composed of one single component encompassing all network nodes. 
+
+Ecological networks are no exception (Guimarães et al. 2020; Maia et al. 202ONLY-DARWIN-KNOWS).
+
+The phase transition between such structures is mediated by a connectivity parameter, *c*. 
+
+Such drastic structural changes should affect how dynamics flows in these networks, for instance how species coevolve.
+
+Here, we investigate how the emergence of connected structures on bipartite networks affects coevolution between species, specifically indirect effects and trait matching.
+
+Example of how to add code if we want to summarise data:
+```{r cars}
+summary(cars)
+```
+
+Example of how to add figures by re-ploting them:
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+Finally how to add figures which are already saved as images:
+(Não consegui adicionar!)
