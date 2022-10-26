@@ -107,10 +107,11 @@ coevo_net <- function(x, net, netname, matrix_type="adjacency", mi, phi, alpha, 
   
   component_tm<-comp_tm(component_id, z_eq, alpha=alpha, sp_id=rownames(A))
   network_tm<-global_tm(z_eq, alpha=alpha)
+  partners_tm<-species_tm(A=A, z=z_eq, alpha=alpha) #Average trait matching of one species with its mutualistic partners
   
   output<-data.frame(network_id=netn, component_id, sp_id=rownames(A), 
                      z_init=z_mat[1,], z_eq, theta, degree, sp_indirect_effects, 
-                     component_tm, network_tm, m, phi, alpha, t_eq, nsim=x)
+                    partners_tm, component_tm, network_tm, m, phi, alpha, t_eq, nsim=x)
   
   return(output)
   
@@ -123,6 +124,13 @@ tmatch<-function(x,y, alpha){
 global_tm<-function(z, alpha){
   tm<-outer(z,z, FUN=tmatch, alpha=alpha)
   diag(tm)<-NA
+  return(rowMeans(tm, na.rm=TRUE))
+}
+
+species_tm<-function(A,z,alpha){
+  tm<-outer(z,z, FUN=tmatch, alpha=alpha)
+  tm<-A*tm
+  tm[tm==0]<-NA
   return(rowMeans(tm, na.rm=TRUE))
 }
 
@@ -145,6 +153,21 @@ comp_tm<-function(comp_id, z, alpha, sp_id){
   aux<-match(sp_id, names(tm_values))
   
   return(tm_values[aux])
+  
+}
+
+comp_thetavar<-function(comp_id, theta){
+  
+  var_list<-list()
+  
+  for(i in 1:length(unique(comp_id))){
+    
+    theta_i<-theta[which(comp_id==unique(comp_id)[i])]
+    var_list[[i]]<-data.frame(comp_id=comp_id[i], var_theta=var(theta_i))
+  
+  }
+  
+  return(do.call(rbind, var_list))
   
 }
 
