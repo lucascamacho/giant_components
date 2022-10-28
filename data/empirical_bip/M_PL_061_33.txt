@@ -1,3 +1,0 @@
-"Apis_mellifera"	"Polistes_olivaceus"	"Cratopus_aurostriatus"	"Trypoxylon_errans"	"Eristalinus_vicarians"	"Ornidia_obesa"
-"Chrysobalanus_icaco"	6	4	0	3	1	1
-"Dillenia_ferruginea"	0	0	3	0	0	0

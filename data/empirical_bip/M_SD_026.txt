@@ -1,4 +1,0 @@
-"Turdus_torquatus"	"Turdus_viscivorus"	"Turdus_iliacus"
-"Juniperus_communis"	1	1	1
-"Juniperus_sabina"	1	1	0
-"Berberis_vulgaris"	1	0	0
